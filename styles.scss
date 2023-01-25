@@ -1,0 +1,42 @@
+.bg-image{
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, .7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+#navmenu{
+    ul{
+        li{
+            a{
+                color: white;
+                &:hover{
+                    color: rgb(190, 188, 188);
+                }
+                &:focus{
+                    color: rgb(255, 174, 75);
+                }
+            }
+        }
+    }
+}
+
+.image-gallery{
+    ul{
+        padding-left:0;
+        li{
+            list-style: none;
+            float:left;
+            margin: 0 3% 2% 0;
+            width: 31%;
+            position: relative;
+            &:nth-child(3n){
+                margin: 0 0 1%;
+            }
+        }
+    }
+}
+.footer{
+    background-color: rgb(48, 48, 48);
+    display: block;
+    justify-content: center;
+}

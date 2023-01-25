@@ -1,0 +1,47 @@
+.bg-image {
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+#navmenu ul li a {
+  color: white;
+}
+
+#navmenu ul li a:hover {
+  color: #bebcbc;
+}
+
+#navmenu ul li a:focus {
+  color: #ffae4b;
+}
+
+#reviewSection {
+  background-color: black;
+}
+
+.image-gallery ul {
+  padding-left: 0;
+}
+
+.image-gallery ul li {
+  list-style: none;
+  float: left;
+  margin: 0 3% 2% 0;
+  width: 31%;
+  position: relative;
+}
+
+.image-gallery ul li:nth-child(3n) {
+  margin: 0 0 1%;
+}
+
+.footer {
+  background-color: #303030;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
